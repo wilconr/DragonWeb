@@ -1,0 +1,73 @@
+
+// Fonts
+//@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.container {
+	padding-top: 50px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label{
+	color: #01579b !important;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+	border-bottom: 2px solid #01579b !important;
+	box-shadow: 0 1px 0 0 #01579b !important;	
+}
+
+
+nav .brand-logo {
+	padding: 0px 0px 0px 100px !important;
+}
+
+
+.dropdown-content {
+	min-width: 150px !important;
+}
+
+.img-avatar {
+	height: 200px !important; 
+	width: 200px !important; 
+	background-color: #efefef !important; 
+	margin-top: 20px !important; 
+	display: block !important;
+}
+
+.btn {
+	letter-spacing: 0px !important;
+}
+
+.datepicker-modal {
+	max-height: fit-content !important;
+}
+.timepicker-modal {
+	max-height: fit-content !important;
+}
+
+[type="checkbox"]+span:not(.lever) {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.timepicker-digital-display {
+	background-color: #212529 !important;
+}
+
+.modal {
+	max-height: fit-content !important;
+}
